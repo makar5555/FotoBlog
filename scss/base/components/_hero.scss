@@ -1,7 +1,57 @@
-.hero{
+.hero {
+    padding-bottom: 66px;
+}
+
+.hero__list {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
-    flex-basis: calc( 2 / (50px));
+    margin-bottom: 94px;
+    justify-content: center;
+    gap: 62px;
+    row-gap: 130px;
+}
+
+.hero__item {
+    -ms-flex-preferred-size: calc((100% - 62px) / 2);
+    flex-basis: calc((100% - 62px) / 2);
+}
+
+.hero__image {
+    margin-bottom: 32px;
+}
+
+.hero__subtitle {
+    font-size: 14px;
+    margin-bottom: 32px;
+    color: rgb(180, 173, 158);
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.hero__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+}
+
+.hero__desc {
+    color: rgb(98, 98, 98);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(98, 98, 98);
+    border-color: rgb(98, 98, 98);
+    border-width: 1px;
+    font-weight: inherit;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 48px 21px 49px;
+    letter-spacing: 0;
 }

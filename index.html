@@ -16,92 +16,127 @@
 <body>
   <header class="header">
     <div class="container">
-    <nav class="header-nav">
-      <ul class="header-list">
-        <li class="header-item">
-          <a class="header-link" href="">LIFESTYLE</a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a class="header__link" href="">LIFESTYLE</a>
         </li>
-        <li class="header-item">
-          <a class="header-link" href="">PHOTODIARY</a>
+        <li class="header__item">
+          <a class="header__link" href="">PHOTODIARY</a>
         </li>
-        <li class="header-item">
-          <a class="header-link" href="">MUSIC</a>
+        <li class="header__item">
+          <a class="header__link" href="">MUSIC</a>
         </li>
-        <li class="header-item">
-          <a class="header-link" href="">TRAVEL</a>
+        <li class="header__item">
+          <a class="header__link" href="">TRAVEL</a>
         </li>
       </ul>
     </nav>
   </div>
   </header>
-  <main class="main">
+   <main class="main">
     <section class="hero">
-      <div class="container">
-      <article class="photoblog">
-        <picture>
-          <source srcset="./image/">
-        <img class="photoblog-img" src="./image/man.png" alt=" Man at the Concert" />
-      </picture>
-        <p class="photoblog-subtitle">LIFESTYLE</p>
-        <h3 class="photoblog-title">More than just a music festival</h3>
-        <p class="photoblog-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorem ea harum excepturi consequatur, nihil voluptates cum
-          provident neque saepe!
-        </p>
-      </article>
-      <article class="photoblog">
-        <img class="photoblog-img" src="./image/cofe.png" alt="Hot coffee at cozy bed" />
-        <p class="photoblog-subtitle">LIFESTYLE</p>
-        <h3 class="photoblog-title">Life tastes better with coffee</h3>
-        <p class="photoblog-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorem ea harum excepturi consequatur, nihil voluptates cum
-          provident neque saepe!
-        </p>
-      </article>
-      <article class="photoblog">
-        <img class="photoblog-img" src="./image/womans.png" alt="Nice looking woman standing next to the lake" />
-        <p class="photoblog-subtitle">LIFESTYLE</p>
-        <h3 class="photoblog-title">American dream</h3>
-        <p class="photoblog-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorem ea harum excepturi consequatur, nihil voluptates cum
-          provident neque saepe!
-        </p>
-      </article>
-      <article class="photoblog">
-        <img class="photoblog-img" src="./image/womanman.png" alt="Cold and Scary Alps Road" />
-        <p class="photoblog-subtitle">LIFESTYLE</p>
-        <h3 class="photoblog-title">A day exploring the Alps</h3>
-        <p class="photoblog-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorem ea harum excepturi consequatur, nihil voluptates cum
-          provident neque saepe!
-        </p>
-      </article>
-      <article class="photoblog">
-        <img class="photoblog-img" src="./image/womans.png" alt="2 Happy woman behind 6the golden gate bridge" />
-        <p class="photoblog-subtitle">LIFESTYLE</p>
-        <h3 class="photoblog-title">Top 10 song for running</h3>
-        <p class="photoblog-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorem ea harum excepturi consequatur, nihil voluptates cum
-          provident neque saepe!
-        </p>
-      </article>
-      <article class="photoblog">
-        <img class="photoblog-img" src="./image/womanman.png" alt="Bay standing in the cold forest in clothes" />
-        <p class="photoblog-subtitle">LIFESTYLE</p>
-        <h3 class="photoblog-title">Cold winter days</h3>
-        <p class="photoblog-description">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
-          dolorem ea harum excepturi consequatur, nihil voluptates cum
-          provident neque saepe!
-        </p>
-      </article>
-      <button class="hero-btn" type="button">Load more</button>
-    </div>
+      <div class="container hero-container">
+        <ul class="hero__list">
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/music-festival@1x.png, ./images/music-festival@2.png">
+                <img src="./images/music-festival.png" alt="festival" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">LIFESTYLE</p>
+              <h3 class="hero__title">More than just a music festival</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero-article">
+              <picture>
+                <source srcset="./images/cofe@1x.png, ./images/coffee@2.png">
+                <img src="images/coffee.png" alt="coffee" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">LIFESTYLE</p>
+              <h3 class="hero__title">Life tastes better with coffee</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source src="./images/american-dream@1x.png, ./images/american-dream@2.png">
+                <img src="./images/american-dream.png" alt="dream" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">PHOTODIARY</p>
+              <h3 class="hero__title">American dream</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/exploring-alps@1x.png, ./images/exploring-alps@2.png">
+                <img src="./images/exploring-alps.png" alt="alps" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">PHOTODIARY</p>
+              <h3 class="hero__title">A day exploring the alps</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/songs-for-running@1x.png, ./images/songs-for-running@2.png">
+                <img src="./images/songs-for-running.png" alt="songs" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">lifystyle</p>
+              <h3 class="hero__title">Top 10 songs for running</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+          <li class="hero__item">
+            <article class="hero__article">
+              <picture>
+                <source srcset="./images/winter-days@1x.png, ./images/winter-days@2.png">
+                <img src="./images/winter-days.png" alt="winter" class="hero__image" />
+              </picture>
+              <p class="hero__subtitle">lifystyle</p>
+              <h3 class="hero__title">Cold winter days</h3>
+              <p class="hero__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea.
+              </p>
+            </article>
+          </li>
+        </ul>
+        <button type="button" class="btn">Load more</button>
+      </div>
     </section>
   </main>
 </body>

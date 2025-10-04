@@ -1,21 +1,17 @@
-.header{
-    padding-top: 70px;
-    padding-bottom: 95px;
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
 }
-.header-list{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    list-style: none;
+.header__list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
-.header-item{
-    text-decoration: none;
-    text-transform: uppercase;
+.header__link {
+  text-transform: uppercase;
+  color: $nav-color;
+  text-decoration: none;
 }
-.header-link{
-    text-decoration: none;
-    color: $nav-color;
-}
-.header-link:hover{
-    color: $hover-color;
+.header__link:hover {
+  color: $hover-color;
 }
