@@ -1,0 +1,7 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc( 2 / (50px));
+}
