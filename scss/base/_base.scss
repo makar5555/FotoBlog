@@ -1,3 +1,4 @@
+@use '../utils/variable' as *;
 body {
     font-family: $main-font;
     color: $text-color;
