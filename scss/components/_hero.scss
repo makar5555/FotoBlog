@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     margin-bottom: 94px;
     justify-content: center;
-    gap: 62px;
+    column-gap: 62px;
     row-gap: 130px;
 }
 
@@ -34,16 +34,18 @@
     font-size: 30px;
     color: rgb(98, 98, 98);
     font-weight: 400;
+    font-family: inherit;
 }
 
 .hero__desc {
     color: rgb(98, 98, 98);
     font-weight: 400;
     font-size: 14px;
+    font-family: inherit;
 }
 
 .btn {
-    font-family: inherit;
+    font-family: $main-font;
     font-size: 14px;
     background-color: transparent;
     color: rgb(98, 98, 98);
