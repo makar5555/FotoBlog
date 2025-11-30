@@ -1,19 +1,21 @@
 @use '../utils/variable' as *;
+
 .header {
-  padding-top: 71px;
-  padding-bottom: 92px;
-}
-.header__list {
-  display: flex;
-  gap: 100px;
-  justify-content: center;
-}
-.header__link {
-  text-transform: uppercase;
-  color: $nav-color;
-  text-decoration: none;
-}
-.header__link:hover {
-  color: $hover-color;
-  font-family: inherit;
+	padding-top: 71px;
+
+	&__list {
+		display: flex;
+		gap: 100px;
+		list-style-type: none;
+		text-transform: uppercase;
+		justify-content: center;
+	}
+
+	&__link {
+		color: $paragraph-color;
+		font-weight: inherit;
+		&:hover {
+			color: $link-color;
+		}
+	}
 }
