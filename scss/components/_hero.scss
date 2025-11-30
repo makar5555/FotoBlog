@@ -1,59 +1,43 @@
 @use '../utils/variable' as *;
 .hero {
-    padding-bottom: 66px;
+  margin-top: 94px;
+  margin-bottom: 64px;
 }
 
 .hero__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 94px;
-    justify-content: center;
-    column-gap: 62px;
-    row-gap: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 130px;
+          column-gap: 62px;
+  padding-bottom: 90px;
 }
 
 .hero__item {
-    flex-basis: calc((100% - 62px) / 2);
+  -ms-flex-preferred-size: calc((100% - 62px) / 2);
+      flex-basis: calc((100% - 62px) / 2);
 }
 
-.hero__image {
-    margin-bottom: 32px;
-}
-
+.hero__image,
 .hero__subtitle {
-    font-size: 14px;
-    margin-bottom: 32px;
-    color: rgb(180, 173, 158);
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .hero__title {
-    margin-bottom: 40px;
-    font-size: 30px;
-    color: rgb(98, 98, 98);
-    font-weight: 400;
-    font-family: inherit;
+  font-size: 30px;
+  color: var(--article-text-color);
 }
 
-.hero__desc {
-    color: rgb(98, 98, 98);
-    font-weight: 400;
-    font-size: 14px;
-    font-family: inherit;
+.hero__subtitle {
+  font-weight: 300;
+  color: var(--article-text-color);
+  font-size: inherit;
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  color: var(--subtitle-color);
 }
 
-.btn {
-    font-family: $main-font;
-    font-size: 14px;
-    background-color: transparent;
-    color: rgb(98, 98, 98);
-    border-color: rgb(98, 98, 98);
-    border-width: 1px;
-    font-weight: inherit;
-    display: block;
-    margin: 0 auto;
-    padding: 20px 48px 21px 49px;
-    letter-spacing: 0;
+.hero__description {
+  color: var(--article-text-color);
+  padding-top: 44px;
 }
