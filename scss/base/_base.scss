@@ -1,11 +1,13 @@
-@use '../utils/variable' as *;
 body {
-    font-family: $main-font;
-    color: $text-color;
-    font-size: 14px;
-    line-height: 100%;
+	line-height: 1;
+	font-family: $main-font;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: $background-color;
+	margin: 0;
 }
-.container{
-    width: 906px;
-    margin: 0 auto;
+
+.container {
+	width: 908px;
+	margin: 0 auto;
 }
