@@ -1,3 +1,17 @@
+body {
+  line-height: 1;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.container {
+  width: 908px;
+  margin: 0 auto;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,32 +66,22 @@ table {
   border-spacing: 0;
 }
 
-body {
-  font-family: var(--main-font);
-  font-size: 14px;
-}
-
-
-.container {
-  width: 908px;
-  margin: 0 auto;
-}
-
 .header {
   padding-top: 71px;
 }
-
 .header__list {
   display: flex;
-  gap: 99px;
+  gap: 100px;
   list-style-type: none;
   text-transform: uppercase;
   justify-content: center;
 }
-
 .header__link {
-  color: var(--paragraph-color);
+  color: rgb(125, 125, 125);
   font-weight: inherit;
+}
+.header__link:hover {
+  color: rgb(3, 169, 244);
 }
 
 .hero {
@@ -87,14 +91,15 @@ body {
 
 .hero__list {
   display: flex;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   row-gap: 130px;
-          column-gap: 62px;
+  -moz-column-gap: 62px;
+       column-gap: 62px;
   padding-bottom: 90px;
 }
 
 .hero__item {
-      flex-basis: calc((100% - 62px) / 2);
+  flex-basis: calc((100% - 62px) / 2);
 }
 
 .hero__image,
